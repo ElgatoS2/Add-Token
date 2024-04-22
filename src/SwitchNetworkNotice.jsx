@@ -4,8 +4,8 @@ import switchNetwork from './switch-network.jpg';
 const nameForNetwork = (network) => {
   let name = ''
   switch (network) {
-    case '1': // main net
-      name = 'The Main Ethereum Network'
+    case '7171': // main net
+      name = 'Bitrock Mainnet'
       break
     case '2': // legacy ropsten test net
       name = 'The OLD Ropsten Test Network'
