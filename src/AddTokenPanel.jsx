@@ -20,15 +20,15 @@ class AddTokenPanel extends Component {
 
   constructor(props) {
     const {
-      tokenName = 'MetaMarks',
-      tokenSymbol = 'MARK',
+      tokenName = 'PopCatRock',
+      tokenSymbol = 'POPCATr',
       tokenDecimals = 18,
-      tokenAddress = metaMarkAddress,
-      tokenImage = 'https://pbs.twimg.com/profile_images/802481220340908032/M_vde_oi_400x400.jpg',
-      tokenNet = '1',
+      tokenAddress = 0x0a916d820aa1cdca99fd79b86f6c317abf86f653,
+      tokenImage = 'https://cat-rock.site/images/capy.png',
+      tokenNet = '7171',
       message = '',
       errorMessage = '',
-      net = '1',
+      net = '7171',
     } = props
 
     super()
